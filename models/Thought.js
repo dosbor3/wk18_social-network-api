@@ -37,12 +37,12 @@ const ThoughtSchema = ({
     },
     username: {
         type: String, 
-        required: true,
-        reactions: [ReactionSchema]
-    }
+        required: true        
+    },
+    reactions: [ReactionSchema]
 });
 
-ReactionSchema.virtual('reactionCount').get(function() {
+ThoughtSchema.virtual('reactionCount').get(function() {
     return this.reactions.length;
 });
 
