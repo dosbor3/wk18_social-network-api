@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "wk18_social-network-api",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dosbor3/wk18_social-network-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dosbor3/wk18_social-network-api/issues"
+  },
+  "homepage": "https://github.com/dosbor3/wk18_social-network-api#readme"
+}
