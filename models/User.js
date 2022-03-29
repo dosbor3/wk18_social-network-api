@@ -1,5 +1,7 @@
 const { Schema, model } = require('mongoose');
 
+const dateFormat = require('../utils/dateFormat');  //importing the dateFormat function
+
 const UserSchema = ({
     username: {
         type: String,
@@ -16,8 +18,18 @@ const UserSchema = ({
             message: 'Email validation failed'
           }
     }, 
-    thoughts: [],
-    friends: []
+    thoughts: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'Thought'
+        }
+    ],
+    friends: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'User'
+        }
+    ]
 });
 
 //get user's friend count
