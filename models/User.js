@@ -1,8 +1,8 @@
 const { Schema, model } = require('mongoose');
 
-const dateFormat = require('../utils/dateFormat');  //importing the dateFormat function
+// const dateFormat = require('../utils/dateFormat');  //importing the dateFormat function
 
-const UserSchema = ({
+const UserSchema = new Schema ({
     username: {
         type: String,
         unique: true, 
@@ -34,7 +34,7 @@ const UserSchema = ({
 
 //get user's friend count
 UserSchema.virtual('friendCount').get(function() {
-    return this.friends.length;
+    return this.friends.reduce((total, friend) => total + friend.replies.length + 1, 0);
 });
 
 const User = model('User', UserSchema);
