@@ -43,7 +43,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## Deployed Site
 
-The application is deployed at the following Heroku Site: https://github.com/dosbor3/wk18_social-network-api
+The application is deployed at the following GitHub Site: https://github.com/dosbor3/wk18_social-network-api
 
 
 
