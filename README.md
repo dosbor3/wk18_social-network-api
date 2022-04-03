@@ -28,17 +28,13 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 
 ## Image 1 of Application 
-![image](https://user-images.githubusercontent.com/40706088/156947359-04cc6aff-b3b9-46bd-8010-3704ac83f0ed.png)    
+![image](https://user-images.githubusercontent.com/40706088/161409207-f98d149b-aaae-4c8c-8655-8b7835f2e358.png)    
 
 
 ## Image 2 of Application 
-![image](https://user-images.githubusercontent.com/40706088/156947383-22cb2814-09b1-4e3e-9b52-9f910794cb3b.png)
+![image](https://user-images.githubusercontent.com/40706088/161409408-f7b33cf1-532e-4c20-926d-8e722d842c8f.png)
 
-## Image 3 of Application 
-![image](https://user-images.githubusercontent.com/40706088/156947417-92e7f4c9-0b4f-40c8-8248-f5810aaf4807.png)
 
-## Image 4 of Application 
-![image](https://user-images.githubusercontent.com/40706088/156947457-e2225785-b68f-4aca-908b-65256e968d83.png)
 
 
 ## Deployed Site
